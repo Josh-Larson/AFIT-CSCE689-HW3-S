@@ -3,6 +3,20 @@
 
 #include "PCalc.h"
 
+class PCalc_SP : public PCalc {
+	
+	
+	public:
+	PCalc_SP(unsigned int arraySize);
+	~PCalc_SP() override = default;
+	
+	void markNonPrimes() override;
+	
+	private:
+	
+	
+};
+
 // Add your PCalc_SP class definition here as a child class of PCalc
 // Be sure to overload the right methods from PCalc or it won't compile
 
